@@ -18,6 +18,13 @@ html {
 body {
   margin: 0;
 }
+
+/*  */
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+/*  */
 article,
 aside,
 details,
@@ -267,7 +274,7 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  font-family: Kalam;
+  font-family: Ubuntu;
   font-size: 20px;
   line-height: 1.42857;
   color: #838383;
@@ -4980,7 +4987,7 @@ img.zoom-img {
 }
 @media (max-width: 992px) {
   .card-shadow {
-    box-shadow: none;
+    box-shadow: #0c54d0;
   }
 }
 .form-control {
@@ -4994,15 +5001,20 @@ img.zoom-img {
 label {
   font-weight: 400;
 }
+.card-gvk img {
+  height: auto;
+  width: 35%;
+  resize: both;
+}
 .card {
-  background: #fff;
+  background: rgb(255, 255, 255);
   padding: 2rem;
   position: relative;
   z-index: 1;
 }
 @media (min-width: 992px) {
   .card {
-    padding: 5rem;
+    padding: 2rem;
   }
 }
 .card-container .card-image {
